@@ -42,13 +42,10 @@ This will generate a file `model-<epoch>.h5` whenever the performance in the epo
 choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
 
 ```python
-python drive.py model-<epoch>.h5
+python shoot.py model-<epoch>.h5
 ```
 
 
-## Credits
-
-The credits for this code go to [naokishibuya](https://github.com/naokishibuya). I've merely created a wrapper to get people started.
 
 
 
